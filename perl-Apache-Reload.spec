@@ -6,7 +6,7 @@ Summary(pl):	Prze³adowywanie zmodyfikowanych w trakcie pracy Apache'a modu³ów
 Name:		perl-Apache-Reload
 Version:	0.07
 Release:	1
-License:	Unknown
+License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	68a57f98e5c140117cceded434df1a0a
