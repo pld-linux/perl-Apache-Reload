@@ -27,7 +27,7 @@ offers the exact same functionality as Apache::StatINC, and is thus
 designed to be a drop-in replacement. Apache::Reload only checks
 modules that register themselves with Apache::Reload if you explicitly
 turn off the StatINC emulation method (see below). Like
-Apache::StatINC, Apache::Reload must be installed as an Init Handler. 
+Apache::StatINC, Apache::Reload must be installed as an Init Handler.
 
 %description -l pl
 Ten modu³ to dwie rzeczy. Pierwsza to adaptacja modu³u
