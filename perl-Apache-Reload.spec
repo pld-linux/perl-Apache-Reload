@@ -5,7 +5,7 @@ Summary:	Reload changed modules
 Summary(pl):	Prze³adowywanie zmodyfikowanych w trakcie pracy Apache'a modu³ów
 Name:		perl-Apache-Reload
 Version:	0.07
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
