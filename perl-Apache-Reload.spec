@@ -2,7 +2,7 @@
 %define		pdir	Apache
 %define		pnam	Reload
 Summary:	Reload changed modules
-Summary(pl):	Prze³adowywanie zmodyfikowanych w trakcie pracy Apache'a modu³ów
+Summary(pl.UTF-8):   PrzeÅ‚adowywanie zmodyfikowanych w trakcie pracy Apache'a moduÅ‚Ã³w
 Name:		perl-Apache-Reload
 Version:	0.07
 Release:	2
@@ -29,19 +29,19 @@ modules that register themselves with Apache::Reload if you explicitly
 turn off the StatINC emulation method (see below). Like
 Apache::StatINC, Apache::Reload must be installed as an Init Handler.
 
-%description -l pl
-Ten modu³ to dwie rzeczy. Pierwsza to adaptacja modu³u
-Stonehenge::Reload napisanego przez Randala Schwartza, próbuj±ca byæ
-nieco bardziej intuicyjna i u³atwiaj±ca u¿ywanie. Stonehenge::Reload
-zosta³ napisany, aby poszczególne modu³y siê prze³adowywa³y, kiedy
-zostan± zmienione. W przeciwieñstwie do Apache::StatINC modu³
-Stonehenge::Reload sprawdza³ tylko czas zmiany modu³ów, które siê
-zarejestrowa³y przy u¿yciu Stonehenge::Reload, redukuj±c liczbê
-wywo³añ stat(). Apache::Reload ponadto oferuje t± sam± funkcjonalno¶æ
-co Apache::StatINC i jest zaprojektowany tak, aby byæ zamiennikiem.
-Apache::Reload sprawdza tylko modu³y, które siê zarejestrowa³y przy
-u¿yciu Apache::Reaload tylko je¶li emulacja StatINC zosta³a wy³±czona.
-Podobnie jak Apache::StatINC Apache::Reload musi byæ zainstalowany
+%description -l pl.UTF-8
+Ten moduÅ‚ to dwie rzeczy. Pierwsza to adaptacja moduÅ‚u
+Stonehenge::Reload napisanego przez Randala Schwartza, prÃ³bujÄ…ca byÄ‡
+nieco bardziej intuicyjna i uÅ‚atwiajÄ…ca uÅ¼ywanie. Stonehenge::Reload
+zostaÅ‚ napisany, aby poszczegÃ³lne moduÅ‚y siÄ™ przeÅ‚adowywaÅ‚y, kiedy
+zostanÄ… zmienione. W przeciwieÅ„stwie do Apache::StatINC moduÅ‚
+Stonehenge::Reload sprawdzaÅ‚ tylko czas zmiany moduÅ‚Ã³w, ktÃ³re siÄ™
+zarejestrowaÅ‚y przy uÅ¼yciu Stonehenge::Reload, redukujÄ…c liczbÄ™
+wywoÅ‚aÅ„ stat(). Apache::Reload ponadto oferuje tÄ… samÄ… funkcjonalnoÅ›Ä‡
+co Apache::StatINC i jest zaprojektowany tak, aby byÄ‡ zamiennikiem.
+Apache::Reload sprawdza tylko moduÅ‚y, ktÃ³re siÄ™ zarejestrowaÅ‚y przy
+uÅ¼yciu Apache::Reaload tylko jeÅ›li emulacja StatINC zostaÅ‚a wyÅ‚Ä…czona.
+Podobnie jak Apache::StatINC Apache::Reload musi byÄ‡ zainstalowany
 jako Init Handler.
 
 %prep
