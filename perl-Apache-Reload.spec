@@ -4,12 +4,12 @@
 Summary:	Reload changed modules
 Summary(pl.UTF-8):	Przeładowywanie zmodyfikowanych w trakcie pracy Apache'a modułów
 Name:		perl-Apache-Reload
-Version:	0.10
+Version:	0.11
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1d89841153b76b384e08479e3e26082a
+# Source0-md5:	ec02f93aeef08f2d9e6734645a131a21
 BuildRequires:	perl-Apache-Test
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
