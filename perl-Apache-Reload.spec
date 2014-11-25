@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Apache
 %define		pnam	Reload
+%include	/usr/lib/rpm/macros.perl
 Summary:	Reload changed modules
 Summary(pl.UTF-8):	Przeładowywanie zmodyfikowanych w trakcie pracy Apache'a modułów
 Name:		perl-Apache-Reload
@@ -10,6 +10,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ec02f93aeef08f2d9e6734645a131a21
+URL:		http://search.cpan.org/dist/Apache-Reload/
 BuildRequires:	perl-Apache-Test
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
