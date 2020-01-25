@@ -1,6 +1,5 @@
 %define		pdir	Apache
 %define		pnam	Reload
-%include	/usr/lib/rpm/macros.perl
 Summary:	Reload changed modules
 Summary(pl.UTF-8):	Przeładowywanie zmodyfikowanych w trakcie pracy Apache'a modułów
 Name:		perl-Apache-Reload
